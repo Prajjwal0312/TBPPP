@@ -1,0 +1,26 @@
+/* *{
+    margin:0px;
+    padding:0;
+    box-sizing:border-box;
+} */
+.product-container{
+    margin-top:70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:5%;
+    overflow: hidden;
+    
+}
+.product-container img{
+    margin-top: 13%;
+    height:300px;
+    width:300px;
+    border-radius: 10px;
+}
+.product-container img:hover{
+    transform: scaleX(1.15);
+}
