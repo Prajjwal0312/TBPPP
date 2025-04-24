@@ -32,7 +32,7 @@ const Navbar = ({ onSearch }) => {
     <nav>
       <div className="navbar">
         <div className="logodiv">
-          <div className="logos" onClick={() => navigate("/")}>            
+          <div className="logos" onClick={() => navigate("/")}>
             <img src="logo.png" alt="" />
           </div>
           <div className="category">
@@ -40,6 +40,7 @@ const Navbar = ({ onSearch }) => {
             <h4>Category</h4>
           </div>
         </div>
+
         <div className="search-bar">
           <input
             type="text"
@@ -47,17 +48,18 @@ const Navbar = ({ onSearch }) => {
             value={searchInput}
             onChange={handleSearchChange}
           />
-          <img src="search.png" alt="" />
+          <img src="search.png" alt="Search" />
         </div>
+
         <div className="cartes">
           {userData ? (
-            <div className="account-menu">
-              <button
-                className="account-btn"
+            <div className="profile-dropdown">
+              <img
+                src={userData.profilePic || "/avatars/default-avatar.png"}
+                alt="Profile"
+                className="profile-avatar"
                 onClick={toggleDropdown}
-              >
-                My Account
-              </button>
+              />
               {dropdownOpen && (
                 <div className="dropdown-menu">
                   <ul>
@@ -69,10 +71,7 @@ const Navbar = ({ onSearch }) => {
               )}
             </div>
           ) : (
-            <button
-              className="login-btn"
-              onClick={() => navigate("/login")}
-            >
+            <button className="login-btn" onClick={() => navigate("/login")}>
               Login
             </button>
           )}

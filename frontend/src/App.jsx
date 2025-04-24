@@ -4,6 +4,7 @@ import NavBar from "./components/navbar";
 import Login from "./components/login";
 import Signup from "./components/Signup";
 import HomePage from "./components/homepage";
+import Profile from "./components/profile";
 import { UserProvider } from "./components/userContext";
 
 export const App = () => {
@@ -17,6 +18,7 @@ export const App = () => {
           <Route path="/" element={<HomePage searchQuery={searchQuery} />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/profile" element={<Profile/>}/>
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>

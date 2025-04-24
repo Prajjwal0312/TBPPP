@@ -13,13 +13,20 @@ const HomePage = ({ searchQuery }) => {
 
   return (
     <div className="homepage">
+      <div className="carousel">
+        <img src="/home.jpg" alt="Home Banner" className="carousel-image" />
+      </div>
+
+      <div>
+        <h1 className="heading">Popular Products </h1>
+      </div>
       <div className="product-container">
         {filteredProducts.length > 0 ? (
           filteredProducts.map((product) => (
             <div key={product.id} className="product-card">
               <img src={product.image} alt={product.name} />
               <h3>{product.name}</h3>
-              <p>Category: {product.category}</p>
+              <p>Price(per item): ₹{product.price}</p>
             </div>
           ))
         ) : (

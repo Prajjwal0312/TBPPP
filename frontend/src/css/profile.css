@@ -1,0 +1,90 @@
+.profile-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .avatar-container {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .avatar-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .avatar-options-grid {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .avatar-option {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .avatar-option:hover {
+    opacity: 0.7;
+  }
+  
+  input[type="file"] {
+    margin-top: 10px;
+  }
+  
+  .form-fields label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-fields input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .btn button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn button:hover {
+    background-color: #45a049;
+  }

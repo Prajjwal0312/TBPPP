@@ -19,6 +19,7 @@ export const UserProvider = ({ children }) => {
         setUserData(response.data);
       } catch (error) {
         console.error("Error fetching user data:", error);
+        localStorage.removeItem("token");
         setUserData(null);
       }
     } else {
@@ -40,6 +41,8 @@ export const UserProvider = ({ children }) => {
     localStorage.removeItem("token");
     setUserData(null);
   };
+
+  if (isLoading) return <div>Loading...</div>;
 
   return (
     <UserContext.Provider value={{ userData, isLoading, login, logout }}>
