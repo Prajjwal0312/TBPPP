@@ -197,3 +197,24 @@ nav {
       transform: translateY(0);
     }
 }
+
+.cart-button {
+    position: relative;
+    margin-right: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+  
+.cart-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+  
+.cart-icon:hover {
+    transform: scale(1.05);
+}

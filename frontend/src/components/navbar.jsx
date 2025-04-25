@@ -52,6 +52,9 @@ const Navbar = ({ onSearch }) => {
         </div>
 
         <div className="cartes">
+        <div className="cart-button" onClick={() => navigate("/cart")}>
+          <img src="/cart.png" alt="Cart" className="cart-icon" />
+        </div>
           {userData ? (
             <div className="profile-dropdown">
               <img
