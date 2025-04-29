@@ -2,16 +2,27 @@ import React, { useState, useEffect } from "react";
 import data from "../data.json";
 import Cart from "./cart";
 
-const HomePage = ({ searchQuery }) => {
+const HomePage = ({ searchQuery, categoryQuery }) => {
   const [filteredProducts, setFilteredProducts] = useState(data);
   const [selectedProduct, setSelectedProduct] = useState(null);
 
   useEffect(() => {
-    const filtered = data.filter((product) =>
-      product.name.toLowerCase().includes(searchQuery.toLowerCase())
-    );
+    let filtered = data;
+
+    if (searchQuery) {
+      filtered = filtered.filter((product) =>
+        product.name.toLowerCase().includes(searchQuery.toLowerCase())
+      );
+    }
+
+    if (categoryQuery && categoryQuery !== "All Items") {
+      filtered = filtered.filter((product) =>
+        product.category.includes(categoryQuery)
+      );
+    }
+
     setFilteredProducts(filtered);
-  }, [searchQuery]);
+  }, [searchQuery, categoryQuery]);
 
   const handleAddToCartClick = (product) => {
     setSelectedProduct(product);

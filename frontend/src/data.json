@@ -4,7 +4,7 @@
         "name": "Bananas", 
         "price": 0.59, 
         "quantity": 100, 
-        "category": "Fruit", 
+        "category": ["Fruits", "All items"], 
         "image": "https://i.pinimg.com/736x/1c/16/62/1c1662f546cc85a1d77732c840ff9113.jpg" 
     },
     { 
@@ -12,7 +12,7 @@
         "name": "Apples", 
         "price": 1.29, 
         "quantity": 80, 
-        "category": "Fruit", 
+        "category": ["Fruits", "All items"], 
         "image": "https://i.pinimg.com/736x/45/fd/d3/45fdd38b20a18b1fe3308158b9e8ea70.jpg" 
     },
     { 
@@ -20,7 +20,7 @@
         "name": "Spinach", 
         "price": 2.49, 
         "quantity": 50, 
-        "category": "Vegetable", 
+        "category": ["Vegetables", "All items"], 
         "image": "https://i.pinimg.com/736x/dc/de/56/dcde560138c6560a62522d35100b1efe.jpg" 
     },
     { 
@@ -28,7 +28,7 @@
         "name": "Carrots", 
         "price": 1.79, 
         "quantity": 75, 
-        "category": "Vegetable", 
+        "category": ["Vegetables", "All items"], 
         "image": "https://i.pinimg.com/736x/f0/cd/b6/f0cdb625a5a2688de8d37e3607d19efd.jpg" 
     },
     { 
@@ -36,31 +36,31 @@
         "name": "Tomatoes", 
         "price": 2.29, 
         "quantity": 60, 
-        "category": "Vegetable", 
+        "category": ["Vegetables", "All items"], 
         "image": "https://i.pinimg.com/736x/c2/da/d0/c2dad0767e554eb74dc1d7b59b79581f.jpg" 
     },
     { 
         "id": 6, 
-        "name": "Avacado", 
+        "name": "Avocado", 
         "price": 5.95, 
         "quantity": 45, 
-        "category": "Fruit", 
+        "category": ["Fruits", "All items"], 
         "image": "https://i.pinimg.com/736x/c6/73/74/c67374d2bb3d31335143d759293f5088.jpg" 
     },
     { 
         "id": 7, 
-        "name": "Brocolli", 
+        "name": "Broccoli", 
         "price": 3.59, 
         "quantity": 65, 
-        "category": "Vegetable", 
-        "image": "https://i.pinimg.com/736x/79/7a/88/797a88b71c355ab9b2a6f986a9989c6f.jpg" 
+        "category": ["Vegetables", "All items"], 
+        "image": "https://media.istockphoto.com/id/1364035705/photo/fresh-broccoli-on-white-background.jpg?s=612x612&w=0&k=20&c=fEcEq65rKBmT8PltpAyg_-na0WomTJ6S6m04uXQQtJs=" 
     },
     { 
         "id": 8, 
         "name": "Orange", 
         "price": 2.30, 
         "quantity": 90, 
-        "category": "Fruit", 
+        "category": ["Fruits", "All items"], 
         "image": "https://i.pinimg.com/736x/7a/aa/a5/7aaaa545e00e8a434850e80b8910dd94.jpg" 
     },
     { 
@@ -68,7 +68,7 @@
         "name": "Pumpkin", 
         "price": 9.65, 
         "quantity": 25, 
-        "category": "Vegetable", 
+        "category": ["Vegetables", "All items"], 
         "image": "https://i.pinimg.com/736x/e4/bf/c9/e4bfc95cffd3a78e715b2e74a1e3927b.jpg" 
     },
     { 
@@ -76,15 +76,15 @@
         "name": "Beetroot", 
         "price": 4.50, 
         "quantity": 60, 
-        "category": "Vegetable", 
+        "category": ["Vegetables", "All items"], 
         "image": "https://i.pinimg.com/736x/a2/8d/17/a28d1797337d1d69f45b47d48d11c50b.jpg" 
     },
     { 
         "id": 11, 
-        "name": "Raddish", 
+        "name": "Radish", 
         "price": 2.50, 
         "quantity": 60, 
-        "category": "Vegetable", 
+        "category": ["Vegetables", "All items"], 
         "image": "https://i.pinimg.com/736x/56/58/14/5658140614980f02d2e63fe9025b1375.jpg" 
     },
     { 
@@ -92,7 +92,7 @@
         "name": "Milk", 
         "price": 3.49, 
         "quantity": 100, 
-        "category": "Dairy", 
+        "category": ["Milk & Juice", "Dairy", "All items"], 
         "image": "https://i.pinimg.com/736x/4d/7a/0c/4d7a0c15a1c06a3e89d453c03c90f73e.jpg" 
     },
     { 
@@ -100,7 +100,7 @@
         "name": "Eggs", 
         "price": 2.99, 
         "quantity": 120, 
-        "category": "Dairy", 
+        "category": ["Chicken and Egg", "Dairy", "All items"], 
         "image": "https://i.pinimg.com/736x/1a/8c/ab/1a8cab38c529624b8aa321e8bb298844.jpg" 
     },
     { 
@@ -108,7 +108,7 @@
         "name": "Butter", 
         "price": 4.29, 
         "quantity": 40, 
-        "category": "Dairy", 
+        "category": ["Dairy", "All items"], 
         "image": "https://i.pinimg.com/736x/da/bf/bf/dabfbffaae502b32a0f7d4485ced1899.jpg" 
     },
     { 
@@ -116,7 +116,7 @@
         "name": "Cheese", 
         "price": 3.79, 
         "quantity": 55, 
-        "category": "Dairy", 
+        "category": ["Dairy", "All items"], 
         "image": "https://i.pinimg.com/736x/07/25/5a/07255ac9c59c7f9e52041195c0ab55cf.jpg" 
     },
     { 
@@ -124,7 +124,7 @@
         "name": "Yogurt", 
         "price": 1.99, 
         "quantity": 70, 
-        "category": "Dairy", 
+        "category": ["Dairy", "All items"], 
         "image": "https://i.pinimg.com/736x/b3/49/68/b3496898e24f9cf35142a7fb8d91ff12.jpg" 
     },
     { 
@@ -132,7 +132,7 @@
         "name": "Bread", 
         "price": 2.79, 
         "quantity": 90, 
-        "category": "Bakery", 
+        "category": ["Bakery", "All items"], 
         "image": "https://i.pinimg.com/736x/f5/14/d0/f514d0ef42cb66418b4a6bbd883bb858.jpg" 
     },
     { 
@@ -140,7 +140,7 @@
         "name": "Bagels", 
         "price": 3.49, 
         "quantity": 60, 
-        "category": "Bakery", 
+        "category": ["Bakery", "All items"], 
         "image": "https://i.pinimg.com/736x/9c/1e/a4/9c1ea482f167100ecf97e5c93a7ac945.jpg" 
     },
     { 
@@ -148,7 +148,7 @@
         "name": "Tortillas", 
         "price": 2.29, 
         "quantity": 75, 
-        "category": "Bakery", 
+        "category": ["Bakery", "All items"], 
         "image": "https://i.pinimg.com/736x/0e/86/29/0e86290db8c14a8e8035d8c39ccfc348.jpg" 
     },
     { 
@@ -156,7 +156,7 @@
         "name": "Muffins", 
         "price": 4.29, 
         "quantity": 45, 
-        "category": "Bakery", 
+        "category": ["Bakery", "All items"], 
         "image": "https://i.pinimg.com/736x/66/ea/55/66ea55cf2d656be8642574bd2919e42c.jpg" 
     },
     { 
@@ -164,7 +164,7 @@
         "name": "Croissants", 
         "price": 3.99, 
         "quantity": 50, 
-        "category": "Bakery", 
+        "category": ["Bakery", "All items"], 
         "image": "https://i.pinimg.com/736x/41/06/83/41068351e5fda8251e672982757548a0.jpg" 
     },
     { 
@@ -172,7 +172,7 @@
         "name": "Rice", 
         "price": 2.99, 
         "quantity": 100, 
-        "category": "Pantry", 
+        "category": ["Grains", "All items"], 
         "image": "https://i.pinimg.com/736x/fd/71/f6/fd71f6518b357678996c850b48023ed9.jpg" 
     },
     { 
@@ -180,7 +180,7 @@
         "name": "Pasta", 
         "price": 1.79, 
         "quantity": 85, 
-        "category": "Pantry", 
+        "category": ["Grains", "All items"], 
         "image": "https://i.pinimg.com/736x/3c/5c/38/3c5c387f501969e16c8a8ce6fb4a9daf.jpg" 
     },
     { 
@@ -188,7 +188,7 @@
         "name": "Peanut Butter", 
         "price": 3.49, 
         "quantity": 65, 
-        "category": "Pantry", 
+        "category": ["Pantry", "All items"], 
         "image": "https://i.pinimg.com/736x/05/af/fc/05affc6e48f455e5955a365cb1be5d69.jpg" 
     },
     { 
@@ -196,7 +196,7 @@
         "name": "Olive Oil", 
         "price": 5.29, 
         "quantity": 40, 
-        "category": "Pantry", 
+        "category": ["Pantry", "All items"], 
         "image": "https://i.pinimg.com/736x/c4/47/60/c44760b2e9c483182f7d8fe9ce33cb7e.jpg" 
     },
     { 
@@ -204,39 +204,23 @@
         "name": "Dish Soap", 
         "price": 2.99, 
         "quantity": 75, 
-        "category": "Cleaning", 
-        "image": "https://i.pinimg.com/736x/c5/6c/5a/c56c5a36c52ad2df353ae5642c49147f.jpg" 
+        "category": ["Personal Care", "Cleaning", "All items"], 
+        "image": "https://m.media-amazon.com/images/I/81ppQ8Mm8FL.jpg" 
     },
     { 
         "id": 81, 
-        "name": "All-Purpose Cleaner", 
-        "price": 3.49, 
-        "quantity": 60, 
-        "category": "Cleaning", 
-        "image": "https://i.pinimg.com/736x/8b/a3/14/8ba31453377da577e19d8050239cc143.jpg" 
+        "name": "Shampoo", 
+        "price": 4.29, 
+        "quantity": 90, 
+        "category": ["Personal Care", "All items"], 
+        "image": "https://cdn11.bigcommerce.com/s-xyx0x9ybhg/images/stencil/1280x1280/products/318/9005/511v33jsxML._SL1500___34837.1721203355.jpg?c=2" 
     },
     { 
         "id": 82, 
-        "name": "Paper Towels", 
-        "price": 4.29, 
-        "quantity": 50, 
-        "category": "Cleaning", 
-        "image": "https://i.pinimg.com/736x/f7/e9/4e/f7e94e49525ba746456d35575a7b8ef0.jpg" 
-    },
-    { 
-        "id": 83, 
-        "name": "Trash Bags", 
-        "price": 5.99, 
-        "quantity": 40, 
-        "category": "Cleaning", 
-        "image": "https://i.pinimg.com/736x/ed/31/41/ed3141dd7e8d3b3fdba2bb3103537d5d.jpg" 
-    },
-    { 
-        "id": 84, 
-        "name": "Sponges", 
+        "name": "Toothpaste", 
         "price": 2.49, 
         "quantity": 80, 
-        "category": "Cleaning", 
-        "image": "https://i.pinimg.com/736x/33/a5/e4/33a5e44d60f2062fb5876aaad7d3430d.jpg" 
+        "category": ["Personal Care", "All items"], 
+        "image": "https://m.media-amazon.com/images/I/61f+32QXZML.jpg" 
     }
 ]
